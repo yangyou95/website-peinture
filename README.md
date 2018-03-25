@@ -1,3 +1,3 @@
 # website-peinture
-Frontend: Angularjs
+Frontend: Angularjs \\
 Backend: Laravel
