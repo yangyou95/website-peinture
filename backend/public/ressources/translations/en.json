@@ -1,0 +1,14 @@
+{
+    "home": {
+
+    },
+    "about": {
+
+    },
+    "menu": {
+        "tab-one": "Personal productions",
+        "tab-two": "restorations",
+        "tab-three": "Fine arts objects",
+        "search": "Search"
+    }
+}

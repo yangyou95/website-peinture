@@ -47,7 +47,6 @@ angular.
         }
 
         selectionnerPhoto(photo) {
-            console.log("coucou");
             this.selection = photo;
         }
     }

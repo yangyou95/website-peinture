@@ -30,6 +30,8 @@
     <script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
     <script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular-route.min.js"></script>
     <script type="text/javascript" src="https://code.angularjs.org/1.5.8/angular-animate.min.js"></script>
+    <script type="text/javascript" src="../ressources/angular-translate/angular-translate.min.js"></script>
+    
 
     <script src="../js/app.module.js"></script>
     <script src="../js/app.config.js"></script>

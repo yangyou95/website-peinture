@@ -12,5 +12,6 @@ angular.module('mainApp', [
   'miniature',
   'restaurations',
   'beauxarts',
-  'windowpopup'
+  'windowpopup',
+  'pascalprecht.translate'
 ]);
