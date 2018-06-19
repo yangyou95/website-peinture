@@ -1,7 +1,7 @@
-<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+<div class="modal-dialog modal-lg modal-dialog-centered popup" role="document">
     <!-- Modal content-->
     <div class="modal-content">
-        <div class="modal-header">
+        <div class="modal-header hideOnZoom">
             <h3 class="modal-title">{{$ctrl.name}}</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -9,18 +9,20 @@
         </div>
         <div class="modal-body">
             <div class="container-photo" ng-init="$ctrl.init($ctrl.peinture)">
-                <img class="rounded main-img" src="{{$ctrl.selection.ref}}" alt="{{$ctrl.selection.name}}" title="{{$ctrl.selection.name}}">
+                <img class="rounded main-img" src="{{$ctrl.selection.ref}}" alt="{{$ctrl.selection.name}}" title="{{$ctrl.selection.name}}" ng-mouseover="$ctrl.zoom()" ng-mouseleave="$ctrl.dezoom()">
             </div>
-            <div class="container-photo little">
-                <div class="floatleft sub-container-photo" ng-repeat="photo in $ctrl.photos" ng-click="$ctrl.selectionnerPhoto(photo)">
-                    <img class="rounded sub-img" src="{{photo.ref}}" alt="{{photo.name}}" title="{{photo.name}}">
+            <div class="hideOnZoom">
+                <div class="container-photo little">
+                    <div class="floatleft sub-container-photo" ng-repeat="photo in $ctrl.photos" ng-click="$ctrl.selectionnerPhoto(photo)">
+                        <img class="rounded sub-img" src="{{photo.ref}}" alt="{{photo.name}}" title="{{photo.name}}">
+                    </div>
                 </div>
-            </div>
-            <div>
-                <b>{{$ctrl.name}} : </b> {{$ctrl.description}}
-            </div>
-            <div>
-                <b>Prix : </b> {{$ctrl.prix}} €
+                <div>
+                    <b>{{$ctrl.name}} : </b> {{$ctrl.description}}
+                </div>
+                <div>
+                    <b>Prix : </b> {{$ctrl.prix}} €
+                </div>
             </div>
         </div>
     </div>

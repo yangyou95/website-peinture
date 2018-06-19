@@ -47,8 +47,17 @@ angular.
         }
 
         selectionnerPhoto(photo) {
-            console.log("coucou");
             this.selection = photo;
+        }
+
+        zoom() {
+            $('.popup').addClass("zoom");
+            $('.hideOnZoom').hide();
+        }
+
+        dezoom() {
+            $('.popup').removeClass("zoom");
+            $('.hideOnZoom').show();
         }
     }
   });

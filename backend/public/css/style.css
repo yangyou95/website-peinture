@@ -44,7 +44,7 @@ footer img.nav-img {
 .sidebar-sticky {
     position: sticky;
     top: 48px;
-    height: 310px;
+    height: 600px;
     padding-top: 1.5rem;
     overflow-x: hidden;
     overflow-y: auto;
@@ -80,6 +80,11 @@ footer img.nav-img {
 
 .main-img {
     max-width: 100%;
+    
+}
+
+.main-img:hover{
+    height: 800px;
 }
 
 .sub-img {
@@ -103,4 +108,27 @@ footer img.nav-img {
     margin-right: 15px;
     line-height: 175px;
     text-align: center;
+}
+
+.zoom {
+    max-width: 80%;
+    width: 80%;
+}
+
+.onglet {
+    padding-left: 0;
+    padding-right: 0;
+    color: black;
+}
+
+.onglet:hover {
+    color: black;
+    text-decoration: unset;
+}
+
+.titre {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
 }

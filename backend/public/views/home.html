@@ -1,16 +1,20 @@
 <div class="container low">
-    <div id="carouselExampleSlidesOnly" class="carousel slide d-flex justify-content-center" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="../ressources/Productions-Personnelles/Dassonneville/DA-MA-1_Dassonneville_(a).png" alt="Productions Personnelles" title"Productions Personnelles">
+    <div class="row">
+        <a class="col-md-4 onglet has-hover" href="#!/prodperso" id="prodPerso" ng-init="$ctrl.init(0)">
+            <div class="titre">
+                <h3>Productions personnelles</h3>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="../ressources/Restaurations/Paris/PARIS-1_Jean-Bernard_TROTZIER_(e)_(1).png" alt="Restaurations" title="Restaurations">
+        </a>
+        <a class="col-md-4 onglet has-hover" href="#!/restaurations" id="restaurations" ng-init="$ctrl.init(1)">
+            <div class="titre">
+                <h3>Restaurations</h3>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="../ressources/Beaux-Arts/Coffret-Aquarelle/ART-BA_1_Coffret_Aquarelle_(a)_(1).png" alt="Objets de beaux-arts" title="Objets de beaux-arts">
+        </a>
+        <a class="col-md-4 onglet has-hover" href="#!/beauxarts" id="beauxArts" ng-init="$ctrl.init(2)">
+            <div class="titre">
+                <h3>Beaux Arts</h3>
             </div>
-        </div>
+        </a>
     </div>
 
     <div class="row">
