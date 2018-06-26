@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="text-center">Les Evennements</h1>
+    <div class="col-md-8 offset-2">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item" ng-repeat="event in $ctrl.events">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h5>{{event.nom}}</h5>
+                        <p><b>Adresse :</b> {{event.adresse}}</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p ng-if="!event.date_fin"><b>Le</b> {{event.date_debut}}</p>
+                        <p ng-if="event.date_fin"><b>Du</b> {{event.date_debut}} <b>au</b> {{event.date_fin}}</p>
+                        <p ng-if="event.heure"><b>A</b> {{event.heure}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>{{event.description}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
