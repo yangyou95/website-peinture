@@ -132,3 +132,7 @@ footer img.nav-img {
     background-color: white;
     opacity: 0.5;
 }
+
+.list-group {
+    max-width: 820px;
+}

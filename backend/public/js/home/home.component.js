@@ -16,6 +16,9 @@ angular.
           },
           {
             ref: "../ressources/Beaux-Arts/Coffret-Aquarelle/ART-BA_1_Coffret_Aquarelle_(a)_(1).png"
+          },
+          {
+            ref: "../ressources/Beaux-Arts/Coffret-Aquarelle/ART-BA_1_Coffret_Aquarelle_(a)_(1).png"
           }
         ]
       }
@@ -23,7 +26,6 @@ angular.
       init(id) {
         switch(id) {
           case 0: {
-            $("#prodPerso").removeClass("has-hover");
             $("#prodPerso").css("background-image", "url('"+this.img[0].ref+"')");
             $("#prodPerso").height($("#prodPerso").width()); 
             break;
@@ -34,6 +36,11 @@ angular.
           }
           case 2: {
             $("#beauxArts").css("background-image", "url('"+this.img[2].ref+"')");
+            break;
+          }
+          case 3: {
+            $("#evennements").css("background-image", "url('"+this.img[3].ref+"')");
+            $("#evennements").height($("#evennements").width()); 
             break;
           }
         }

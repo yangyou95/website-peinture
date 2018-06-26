@@ -12,5 +12,7 @@ angular.module('mainApp', [
   'miniature',
   'restaurations',
   'beauxarts',
-  'windowpopup'
+  'windowpopup',
+  'evennements',
+  'contact'
 ]);

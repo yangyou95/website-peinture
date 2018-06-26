@@ -53,4 +53,8 @@
     <script src="../js/beauxarts/beauxarts.component.js"></script>
     <script src="../js/window-popup/window-popup.module.js"></script>
     <script src="../js/window-popup/window-popup.component.js"></script>
+    <script src="../js/evennements/evennements.module.js"></script>
+    <script src="../js/evennements/evennements.component.js"></script>
+    <script src="../js/contact/contact.module.js"></script>
+    <script src="../js/contact/contact.component.js"></script>
 </html>

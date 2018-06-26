@@ -10,6 +10,9 @@ angular.
         when('/home', {
           template: '<home></home>'
         }).
+        when('/', {
+          template: '<home></home>'
+        }).
         when('/about', {
           template: '<aboutus></aboutus>'
         }).
@@ -22,6 +25,11 @@ angular.
         when('/beauxarts', {
           template: '<beauxarts></beauxarts>'
         }).
-        otherwise('/home');
+        when('/evennements', {
+          template: '<evennements></evennements>'
+        }).
+        when('/contact', {
+          template: '<contact></contact>'
+        })
     }
   ]);
