@@ -94,3 +94,9 @@ Route::get('log/history', 'ViewLogController@getHistoryCount')->middleware('auth
  * Home
  */
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+// 6.26 update
+Route::get('/my-admin', 'AdminController@myAdmin');
+
+Route::get('/my-users', 'Adminontroller@myUsers');
