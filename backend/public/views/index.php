@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Laravel/Angular todo app</title>
+        <title>Artpleasure</title>
 
         <!-- css -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -53,8 +53,8 @@
     <script src="../js/beauxarts/beauxarts.component.js"></script>
     <script src="../js/window-popup/window-popup.module.js"></script>
     <script src="../js/window-popup/window-popup.component.js"></script>
-    <script src="../js/evennements/evennements.module.js"></script>
-    <script src="../js/evennements/evennements.component.js"></script>
+    <script src="../js/evenements/evenements.module.js"></script>
+    <script src="../js/evenements/evenements.component.js"></script>
     <script src="../js/contact/contact.module.js"></script>
     <script src="../js/contact/contact.component.js"></script>
 </html>

@@ -39,8 +39,8 @@ angular.
             break;
           }
           case 3: {
-            $("#evennements").css("background-image", "url('"+this.img[3].ref+"')");
-            $("#evennements").height($("#evennements").width()); 
+            $("#evenements").css("background-image", "url('"+this.img[3].ref+"')");
+            $("#evenements").height($("#evenements").width()); 
             break;
           }
         }
