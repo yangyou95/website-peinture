@@ -1,10 +1,10 @@
 'use strict';
 
-// Register `evennements` component, along with its associated controller and template
+// Register `evenements` component, along with its associated controller and template
 angular.
-  module('evennements').
-  component('evennements', {
-    templateUrl: '../../views/evennements.html',
+  module('evenements').
+  component('evenements', {
+    templateUrl: '../../views/evenements.html',
     controller: class {
       constructor() {
         this.events = [

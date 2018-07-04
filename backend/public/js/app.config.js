@@ -25,8 +25,8 @@ angular.
         when('/beauxarts', {
           template: '<beauxarts></beauxarts>'
         }).
-        when('/evennements', {
-          template: '<evennements></evennements>'
+        when('/evenements', {
+          template: '<evenements></evenements>'
         }).
         when('/contact', {
           template: '<contact></contact>'

@@ -5,5 +5,12 @@ angular.
   module('navbarvert').
   component('navbarvert', {
     templateUrl: '../../views/navbar-vert.html',
-    controller: []
+    bindings: {
+      menu: '<'
+    },
+    controller: class {
+      get href() {
+        return "#!/" + this.menu;
+      }
+    }
   });

@@ -13,6 +13,6 @@ angular.module('mainApp', [
   'restaurations',
   'beauxarts',
   'windowpopup',
-  'evennements',
+  'evenements',
   'contact'
 ]);
