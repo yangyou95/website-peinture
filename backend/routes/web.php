@@ -99,4 +99,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 // 6.26 update
 Route::get('/my-admin', 'AdminController@myAdmin');
 
-Route::get('/my-users', 'Adminontroller@myUsers');
+Route::get('/my-users', 'AdminController@myUsers');
+
+Route::get('/my-admin-upload','AdminController@myAdminUpload');

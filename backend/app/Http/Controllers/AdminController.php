@@ -74,4 +74,24 @@ class AdminController extends Controller
 
     }
 
+    /**
+
+     * Show the upload peitnture images page.
+
+     *
+
+     * @return \Illuminate\Http\Response
+
+     */
+
+    public function myAdminUpload()
+
+    {
+
+        return view('myAdmin-images-upload');
+
+    }
+
+
+
 }
