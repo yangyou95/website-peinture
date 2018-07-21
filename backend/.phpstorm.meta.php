@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2017-11-19.
+    * Generated on 2018-07-21.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -31,6 +31,7 @@ namespace PHPSTORM_META {
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
         'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
+        'filesystem.disk' => \Illuminate\Filesystem\FilesystemAdapter::class,
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
@@ -135,6 +136,8 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::make(0), map([
         '' => '@',
@@ -159,6 +162,7 @@ namespace PHPSTORM_META {
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
         'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
+        'filesystem.disk' => \Illuminate\Filesystem\FilesystemAdapter::class,
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
@@ -263,6 +267,8 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::makeWith(0), map([
         '' => '@',
@@ -287,6 +293,7 @@ namespace PHPSTORM_META {
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
         'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
+        'filesystem.disk' => \Illuminate\Filesystem\FilesystemAdapter::class,
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
@@ -391,6 +398,8 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
     ]));
     override(\App::make(0), map([
         '' => '@',
@@ -415,6 +424,7 @@ namespace PHPSTORM_META {
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
         'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
+        'filesystem.disk' => \Illuminate\Filesystem\FilesystemAdapter::class,
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
@@ -519,6 +529,8 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
     ]));
     override(\App::makeWith(0), map([
         '' => '@',
@@ -543,6 +555,7 @@ namespace PHPSTORM_META {
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
         'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
+        'filesystem.disk' => \Illuminate\Filesystem\FilesystemAdapter::class,
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
@@ -647,6 +660,8 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
     ]));
     override(\app(0), map([
         '' => '@',
@@ -671,6 +686,7 @@ namespace PHPSTORM_META {
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
         'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
+        'filesystem.disk' => \Illuminate\Filesystem\FilesystemAdapter::class,
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
@@ -775,6 +791,8 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
     ]));
     override(\resolve(0), map([
         '' => '@',
@@ -799,6 +817,7 @@ namespace PHPSTORM_META {
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
         'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
+        'filesystem.disk' => \Illuminate\Filesystem\FilesystemAdapter::class,
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
@@ -903,6 +922,8 @@ namespace PHPSTORM_META {
         'translator' => \Illuminate\Translation\Translator::class,
         'validation.presence' => \Illuminate\Validation\DatabasePresenceVerifier::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
     ]));
 
     override(\Illuminate\Support\Arr::add(0), type(0));

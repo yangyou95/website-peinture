@@ -94,7 +94,9 @@
         </div>
       </div>
 
+
       <button class="btn btn-primary" type="submit" ng-click="$ctrl.submit()">Submit form</button>
+    
   </form>
 
 

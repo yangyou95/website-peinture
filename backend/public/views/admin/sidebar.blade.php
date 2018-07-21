@@ -32,6 +32,38 @@
 
             </li>
 
+
+            <li>
+
+                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Controller les sous-categories<span class="fa arrow"></span></a>
+
+                <ul class="nav nav-second-level">
+
+                    <li>
+
+                        <a href="voir-tous-les-categories">Voir tous les categories</a>
+
+                    </li>
+
+                    <li>
+
+                          <a href="my-admin-upload-categpries">Ajouter les sous-categories</a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="morris.html">Modifier les sous-categpries</a>
+
+                    </li>
+
+                </ul>
+
+                <!-- /.nav-second-level -->
+
+            </li>
+
+
             <li>
 
                 <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Controller les peintures<span class="fa arrow"></span></a>
@@ -40,13 +72,13 @@
 
                     <li>
 
-                        <a href="my-admin-upload">Ajouter les peintures</a>
+                        <a href="#">Voir tous les peintures</a>
 
                     </li>
 
                     <li>
 
-                        <a href="morris.html">Supprimer les peintures</a>
+                        <a href="my-admin-upload">Ajouter les peintures</a>
 
                     </li>
 
