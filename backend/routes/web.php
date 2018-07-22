@@ -101,10 +101,11 @@ Route::get('/my-admin', 'AdminController@myAdmin');
 
 Route::get('/my-users', 'AdminController@myUsers');
 
-Route::get('/my-admin-upload','AdminController@myAdminUpload');
-Route::get('/my-admin-upload-categpries','AdminController@myAdminUploadCategorie')->name('ajouter_sous_categories');
+Route::get('/my-admin-upload','AdminController@myAdminUpload')->name('ajouter_peinture');
+Route::post('/my-admin-upload','AdminController@storePeintures');
 
+Route::get('/my-admin-upload-categpries','AdminController@myAdminUploadCategorie')->name('ajouter_sous_categories');
 Route::post('/my-admin-upload-categpries','AdminController@storeSousCategories');
 
-
 Route::get('/voir-tous-les-categories','AdminController@voir_categories');
+Route::get('/voir-tous-peintures','AdminController@voir_peintures');

@@ -72,7 +72,7 @@
 
                     <li>
 
-                        <a href="#">Voir tous les peintures</a>
+                        <a href="voir-tous-peintures">Voir tous les peintures</a>
 
                     </li>
 

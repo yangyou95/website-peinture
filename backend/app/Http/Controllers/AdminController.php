@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 use App\Item;
 
 use App\Sous_categorie;
+use App\Peinture;
 
 
 
@@ -93,12 +94,19 @@ class AdminController extends Controller
        return view('admin/functionpages/voir_tous_les_categories',compact(['scs']));#传入视图
      }
 
+     public function voir_peintures()
+     {
+       $ps = Peinture::all(); #提取该表下所有数据
+
+       return view('admin/functionpages/voir_tous_les_peintures',compact(['ps']));#传入视图
+     }
+
 
     public function myAdminUpload()
 
     {
-
-        return view('admin/functionpages/myAdmin-images-upload');
+        $scs = Sous_categorie::all(); #提取该表下所有数据
+        return view('admin/functionpages/myAdmin-images-upload',compact(['scs']));
 
     }
 
@@ -122,6 +130,37 @@ class AdminController extends Controller
 
       return 'Vous avez réussi à ajouter un nouveau sous categorie';
 
+    }
+
+    public function storePeintures(request $request)
+    {
+      // $this->validate($request,[
+      //   'category'=>'required',
+      //   'sous_categories'=>'required',
+      //   'title'=>'required',
+      //   'description'=>'required',
+      //   'file'=>'required',
+      // ]);
+
+      if ($request->hasFile('file')){
+
+        $filename = $request->file->getClientOriginalName();
+        $filepath = $request->file->storeAs('public/upload',$filename);
+        $request->file->storeAs('public/upload',$filename);
+
+        $peinture = new Peinture;
+        $peinture->name = $request ->input('title');
+        $peinture->sous_categories = $request->input('sous-categories');
+        $peinture->categories = $request ->input('category');
+        $peinture->description = $request ->input('description');
+        $peinture->prix = $request ->input('prix');
+        $peinture->path = $filepath;
+
+        $peinture->save();
+
+        return 'Vous avez réussi à ajouter un nouveau peinture';
+
+     }
     }
 
 }
